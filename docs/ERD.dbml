@@ -1,0 +1,44 @@
+// ERD for Readers Digest Application
+
+Table Users {
+  id integer [primary key]
+  username varchar
+  email varchar
+  password varchar
+}
+
+Table Categories {
+  id integer [primary key]
+  name varchar
+  created_at timestamp
+  updated_at timestamp
+}
+
+Table Books {
+  id integer [primary key]
+  user_id integer [ref: > Users.id]
+  title varchar
+  author varchar
+  isbn varchar
+  cover_image_url varchar
+  created_at timestamp
+  updated_at timestamp
+}
+
+Table BookCategories {
+  id integer [primary key]
+  book_id integer [ref: > Books.id]
+  category_id integer [ref: > Categories.id]
+  created_at timestamp
+  updated_at timestamp
+}
+
+Table BookReviews {
+  id integer [primary key]
+  user_id integer [ref: > Users.id]
+  book_id integer [ref: > Books.id]
+  rating integer
+  review_text varchar
+  created_at timestamp
+  updated_at timestamp
+}

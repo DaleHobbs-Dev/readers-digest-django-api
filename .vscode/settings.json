@@ -1,9 +1,14 @@
 {
+    "python.defaultInterpreterPath": "/home/ssj4mathgenius/.local/share/virtualenvs/readers-digest-django-api-O1Df-VTr/bin/python",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
     "pylint.args": [
         "--disable=W0105,E1101,W0614,C0111,C0301",
         "--load-plugins=pylint_django",
         "--django-settings-module=bangazon.settings",
         "--max-line-length=120"
     ],
+    "python-envs.defaultEnvManager": "ms-python.python:pipenv",
 }
 
