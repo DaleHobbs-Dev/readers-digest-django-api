@@ -1,0 +1,47 @@
+[
+    {
+        "model": "digestapi.category",
+        "pk": 1,
+        "fields": {
+            "name": "Technology",
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.category",
+        "pk": 2,
+        "fields": {
+            "name": "Health",
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.category",
+        "pk": 3,
+        "fields": {
+            "name": "Science",
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.category",
+        "pk": 4,
+        "fields": {
+            "name": "Entertainment",
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.category",
+        "pk": 5,
+        "fields": {
+            "name": "Business",
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z"
+        }
+    }
+]
