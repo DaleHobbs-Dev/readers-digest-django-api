@@ -3,3 +3,4 @@
 from .users import UserViewSet
 from .category_views import CategoryViewSet
 from .book_views import BookViewSet
+from .review_views import ReviewViewSet

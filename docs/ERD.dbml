@@ -39,6 +39,6 @@ Table BookReviews {
   book_id integer [ref: > Books.id]
   rating integer
   review_text varchar
-  created_at timestamp
+  date_posted timestamp
   updated_at timestamp
 }

@@ -13,6 +13,6 @@ class BookReview(models.Model):
     )
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name="reviews")
     rating = models.PositiveSmallIntegerField()
-    review_text = models.TextField(blank=True)
-    created_at = models.DateTimeField(auto_now_add=True)
+    review = models.TextField(blank=True)
+    date_posted = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
