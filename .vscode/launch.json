@@ -6,10 +6,10 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/manage.py",
-            "args": ["runserver"],
+            "args": ["runserver", "--noreload"],
             "django": true,
             "autoReload":{
-                "enable": true
+                "enable": false
             }
         }
     ]
